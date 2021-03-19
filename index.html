@@ -5,20 +5,17 @@
 </head>
 <body>
 
-<h2>Center Align Elements</h2>
-<p>To horizontally center a block element (like div), use margin: auto;</p>
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
 
-<div class="center">
-  <iframe height="400px" width="100%" src="https://replit.com/@itharabbas/Web-Scraper-Google-Forms?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-</div>
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Enter your Query" name="msg" required></textarea>
 
-<div>
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf3l0Iv3pXcctVC-1EE45KVOavwERdcZq2GZ8tV4PIU0lx1Rg/viewform?embedded=true" width="640" height="610" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</div>
-  
-<div>
-  <iframe src="http://www.strawpoll.me/embed_1/42810650/r" style="width:680px;height:457px;border:0;">Loading poll...</iframe>
-</div>
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>  
   
 </body>
 </html>
