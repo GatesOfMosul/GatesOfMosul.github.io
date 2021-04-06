@@ -6,10 +6,10 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  float: right;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 8px;
+  padding: 10px 35px;
   font-family: Arial Narrow, sans-serif;
   text-decoration: none;
   font-size: 17px;
@@ -29,15 +29,17 @@
 
 
 .center {
-  margin: auto;
-  width: 50%;
-  border: 3px solid #4d4d4d;
-  padding: 10px;
+  float:left;
+  width: 400px;
+  background-color: #ffffff;
+  border: 0px solid #c8c8c8;
+  padding: 0px;
 }
 
 img.topbannerlogo {
-  max-width: 20%;
-  height: auto;
-  
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
+
