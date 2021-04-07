@@ -27,13 +27,19 @@
   color: white;
 }
 
+.parent {
+  position: relative;
+}
 
 .center {
-  float:left;
   width: 400px;
   background-color: #ffffff;
   border: 0px solid #c8c8c8;
   padding: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
 }
 
 img.topbannerlogo {
