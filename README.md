@@ -13,5 +13,5 @@ UPDATES
 
 FUTURE UPDATES
 
-- Add in text sections for main menu
+- Add in text sections for home page
 - Start work on the "about us" section
