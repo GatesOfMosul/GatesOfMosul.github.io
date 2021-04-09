@@ -68,3 +68,18 @@ img.worldmap {
   margin-right: auto;
   width: 1280px;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  padding: 0% 15%;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 20%;
+  padding: 5px;
+}
