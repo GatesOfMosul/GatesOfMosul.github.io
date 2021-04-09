@@ -83,3 +83,23 @@ img.worldmap {
   flex: 20%;
   padding: 5px;
 }
+
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  background-color: #f6f6f6;
+  color: white;
+  padding-left: 20px;
+  padding-right: 10px;
+  text-align: center;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 31px;
+  color: #313442;
+}
