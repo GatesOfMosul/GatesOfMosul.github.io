@@ -75,7 +75,7 @@ img.worldmap {
 
 .row {
   display: flex;
-  padding: 0% 15%;
+  padding: 60px 15%;
 }
 
 /* Create three equal columns that sits next to each other */
