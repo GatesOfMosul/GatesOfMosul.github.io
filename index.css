@@ -103,3 +103,10 @@ img.worldmap {
   line-height: 31px;
   color: #313442;
 }
+
+
+img.divider {
+  display: block;
+  width: 100%;
+  height: auto;
+}
